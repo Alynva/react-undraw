@@ -25,7 +25,7 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "node ./scripts/build.js",
+    "build": "npm i -g typescript && node ./scripts/build.js",
     "format": "prettier --write **/*.js",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "postinstall": "npm run build",
