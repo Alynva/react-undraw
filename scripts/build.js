@@ -77,7 +77,7 @@ const { pascalCase } = require('pascal-case');
 
   // compile typescript
   const promiseExec = util.promisify(exec);
-  await promiseExec('tsc -p ./tsconfig.json', { cwd: root }).catch(e => console.error(e));
+  await promiseExec('./node_modules/.bin/tsc -p ./tsconfig.json', { cwd: root }).catch(e => console.error(e));
 
   console.log('Done!');
 })();
