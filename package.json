@@ -30,7 +30,8 @@
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "postinstall": "npm run build",
     "prepublishOnly": "npm run build",
-    "release": "standard-version"
+    "release": "standard-version",
+    "tsc": "tsc -p ./tsconfig.json"
   },
   "husky": {
     "hooks": {
