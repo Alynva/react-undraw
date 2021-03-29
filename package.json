@@ -61,7 +61,8 @@
     "fs-extra": "^9.0.0",
     "glob": "^7.1.6",
     "pascal-case": "^3.1.1",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@justinlettau/renovate-config": "^0.1.2",
@@ -76,8 +77,7 @@
     "ts-jest": "^25.2.1",
     "tslint": "^6.1.0",
     "tslint-config-prettier": "^1.18.0",
-    "tslint-react": "^4.2.0",
-    "typescript": "^3.8.3"
+    "tslint-react": "^4.2.0"
   },
   "browserslist": [
     ">0.2%",
